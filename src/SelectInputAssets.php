@@ -14,11 +14,10 @@ use yii\web\AssetBundle;
 class SelectInputAssets extends AssetBundle
 {
 
-    public $sourcePath = '@bower/bootstrap-selectinput-plugin/src';
-
     public function init()
     {
         parent::init();
+        $this->sourcePath = __DIR__ . '/assets';
         $this->css = YII_DEBUG ? ['css/selectinput.css'] : ['css/selectinput.min.css'];
         $this->js = YII_DEBUG ? ['js/selectinput.js'] : ['js/selectinput.min.js'];
         $this->depends = [\yii\web\JqueryAsset::class];

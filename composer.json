@@ -22,18 +22,12 @@
   ],
   "require": {
     "yiisoft/yii2": "^2.0.33",
-    "yiisoft/yii2-bootstrap": "*",
-    "bower-asset/bootstrap-selectinput-plugin": "^1.2.1"
+    "yiisoft/yii2-bootstrap": "*"
   },
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "wdmg\\widgets\\": "src"
-    }
-  },
-  "extra": {
-    "asset-installer-paths": {
-      "bower-asset-library": "vendor/bower"
     }
   }
 }
